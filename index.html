@@ -3,21 +3,66 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Inspire</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/foundation/6.2.3/foundation.min.css">
+	<link href="http://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css" rel="stylesheet">
 	<link rel="stylesheet" href="assets/css/style.css">
 </head>
 
-<body id="body">
-	<div id="weather">
+<body onload="startTime()">
 
+	<div class="row sect1 quoteR">
+		<div class="small-12 columns quoteR">
+			<div id="quote">
+
+			</div>
+		</div>
 	</div>
 
-	<div id="quote">
-
+	<div class="row sect2">
+		<div class="small-3 columns todoFormat">
+			<div id="form">
+				<div class="row collapse">
+					<form>
+						<div class="small-12 columns todoform">
+							<input type="text" id="addToDo" placeholder="Add ToDo" class="text-center">
+						</div>
+				</div>
+				<div class="row">
+					<div class=" buttoncol small-10 small-offset-1 columns">
+						<button type="button submit" class="success button tiny postfix">Add</button>
+					</div>
+				</div>
+					</form>
+				<div class="row">
+					<div class="small-12 columns">
+						<div id="todo">
+							<ul id="list"></ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="small-3 small-offset-6 columns">
+			<div id="weather"></div>
+		</div>
 	</div>
 
-	<div id="todo">
+	<footer class="sect3">
+		<div class="row">
+			<div class="small-12 text-center">
+				<h3>Today is a Great Day</h3>
+			</div>
+		</div>
+		<div class="row">
+			<div class="small-12 text-center">
+				<p id="clock">clock</p>
+			</div>
+		</div>
+	</footer>
 
-	</div>
+
+
+
 
 
 

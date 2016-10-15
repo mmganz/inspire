@@ -1,0 +1,121 @@
+
+html{
+  height: auto;
+}
+
+body{
+   height:100%;
+     background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    height: auto;
+}
+
+
+.card{
+   background-color: rgba(0,0,0,.6);
+    color:white;
+}
+
+.h4{
+   background-color: rgba(0,0,0,.7);
+}
+/*
+::-webkit-input-placeholder {
+   color: black;
+}
+
+:-moz-placeholder {
+   color: black;  
+   opacity: 1;
+}
+
+::-moz-placeholder {
+     color: black; 
+     opacity: 1; 
+}
+
+:-ms-input-placeholder { 
+  color: black;
+}*/
+
+.quoteR{
+  max-width:100%;
+background-color: rgba(0,0,0,.6);
+   color:white;
+}
+
+.buttoncol{
+  width:100%;
+}
+
+#quotewa:hover #author {
+  display: block;
+}
+
+.sect2{
+  margin-top:50px;
+}
+
+.todoFormat{
+background-color: rgba(0,0,0,.6);
+   color:white;
+}
+.row .row{
+  width:109%;
+}
+
+label{
+  color:white;
+}
+
+form{
+  width:90%;
+}
+
+.button.success{
+    height: 2.4375rem;
+    /*font-size: 1.1rem;*/
+    background-color: rgba(0,0,0,.7);
+    width:80%;
+}
+
+
+.button.alert{
+  display:inline-block;
+  background-color: transparent;
+}
+
+
+li{
+  list-style-type: none;
+}
+
+.text-center{
+  text-align: center;
+}
+
+   
+
+#author {
+  /*border: 1px solid #ccc;*/
+  display: none;
+  font-size: 20px;
+  margin-top: 10px;
+  padding: 5px;
+  text-transform: uppercase;
+}
+
+.sect3{
+  max-width:100%;
+background-color: rgba(0,0,0,.8);
+   color:white;
+}
+
+footer{
+position: fixed;
+bottom: 0;
+width: 100%;
+height: 100px; /* choose any height */
+
+}
