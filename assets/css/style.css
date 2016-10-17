@@ -11,38 +11,43 @@ body{
     height: auto;
 }
 
-
 .card{
    background-color: rgba(0,0,0,.6);
     color:white;
 }
 
 .h4{
-   background-color: rgba(0,0,0,.7);
+   background-color: rgba(0,0,0,.8);
+   color: white;
 }
-/*
+
+.todoform{
+  padding-top: 0.5rem;
+}
+
 ::-webkit-input-placeholder {
    color: black;
 }
 
 :-moz-placeholder {
    color: black;  
-   opacity: 1;
+
 }
 
 ::-moz-placeholder {
      color: black; 
-     opacity: 1; 
+
 }
 
 :-ms-input-placeholder { 
   color: black;
-}*/
+}
 
 .quoteR{
   max-width:100%;
 background-color: rgba(0,0,0,.6);
    color:white;
+
 }
 
 .buttoncol{

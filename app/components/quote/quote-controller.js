@@ -14,7 +14,7 @@
 			template = `
 			<div class="quoteSect">
 			<div id="quotewa">
-			<p class="text-center">${qData.quote}</p>
+			<p class="text-center"><em>${qData.quote}</em></p>
 			<span id="author" class="text-center">${qData.author}</span>
 			</div>
 			</div>
