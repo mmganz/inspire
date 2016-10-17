@@ -11,11 +11,8 @@
 function displayImage(imageData){
 	var template = ''
 	var imgData = JSON.parse(imageData)
-	for (prop in imgData){
 		template =`url("${imgData.url}")`
 	$('body').css('background-image',template)
-	}
-	return;
 }
 
 

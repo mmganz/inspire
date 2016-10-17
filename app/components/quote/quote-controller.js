@@ -10,18 +10,15 @@
 	function displayQuote(quoteData){
 		var template = ''
 		var qData = JSON.parse(quoteData)
-		for (prop in qData){
 			template = `
 			<div class="quoteSect">
 			<div id="quotewa">
-			<p class="text-center"><em>${qData.quote}</em></p>
+			<h5 class="text-center"><em>${qData.quote}</em></h5>
 			<span id="author" class="text-center">${qData.author}</span>
 			</div>
 			</div>
 			`
 			$('#quote').html(template)
-		}
-		return;
 	}
 	
 }())

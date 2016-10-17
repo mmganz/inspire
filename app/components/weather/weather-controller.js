@@ -18,7 +18,7 @@
  var template = `
 			<div class="card text-center">
 			<div class="card-section">
-			<h5 class="text-center">${name}</h5>
+			<h4 class="text-center">${name}</h4>
 			<h5>${main} <img src="${icon}"</h5>
 			<h5 id="ftemp">${fTemp} °F | ${cTemp} °C</h5>	
 			</div>
